@@ -6,8 +6,8 @@
 
 <pre>
 📂 Proyecto_X/
-   ├── practica/        # Todos los archivos prácticos (obligatorios y de repaso)
-   ├── teoria/          # Archivos con teoría dada
+   ├── sprints/         # Todos los archivos prácticos (obligatorios y de repaso)
+   ├── apuntes/         # Pequeños apuntes que haya podido hacer
    ├── .gitignore/      # Gitignore para no subir archivos innecesarios
    └── README.md        # Descripción breve
 </pre>
