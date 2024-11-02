@@ -5,9 +5,9 @@
 <h2>📑 Estructura del Repositorio</h2>
 
 <pre>
-📂 Proyecto_X/
-   ├── sprints/         # Todos los archivos prácticos (obligatorios y de repaso)
-   ├── apuntes/         # Pequeños apuntes que haya podido hacer
+📂 ONLINE_DS_THEBRIDGE_FILES/
+   ├── Sprints/         # Todos los archivos prácticos (obligatorios y de repaso)
+   ├── Apuntes/         # Pequeños apuntes que haya podido hacer
    ├── .gitignore/      # Gitignore para no subir archivos innecesarios
    └── README.md        # Descripción breve
 </pre>
