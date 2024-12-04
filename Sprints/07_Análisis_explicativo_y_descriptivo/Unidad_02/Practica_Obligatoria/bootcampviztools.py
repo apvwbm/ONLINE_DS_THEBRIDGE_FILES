@@ -3,7 +3,6 @@ import seaborn as sns
 import pandas as pd
 import numpy as np
 
-
 def pinta_distribucion_categoricas(df, columnas_categoricas, relativa=False, mostrar_valores=False):
     num_columnas = len(columnas_categoricas)
     num_filas = (num_columnas // 2) + (num_columnas % 2)
@@ -202,7 +201,6 @@ def plot_grouped_boxplots(df, cat_col, num_col):
         plt.title(f'Boxplots of {num_col} for {cat_col} (Group {i//group_size + 1})')
         plt.xticks(rotation=45)
         plt.show()
-
 
 
 def plot_grouped_histograms(df, cat_col, num_col, group_size, bins = "auto"):
