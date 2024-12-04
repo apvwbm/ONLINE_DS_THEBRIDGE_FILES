@@ -6,7 +6,6 @@
 
 <pre>
 📂 ONLINE_DS_THEBRIDGE_FILES/
-   ├── Apuntes/         # Pequeños apuntes que haya podido hacer
    ├── Examen/          # Exámenes del curso
    ├── Sprints/         # Todos los archivos prácticos (obligatorios y de repaso)
    ├── .gitignore/      # Gitignore para no subir archivos innecesarios
