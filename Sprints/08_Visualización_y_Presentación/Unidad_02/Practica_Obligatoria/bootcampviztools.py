@@ -3,7 +3,6 @@ import seaborn as sns
 import pandas as pd
 import numpy as np
 
-
 def pinta_distribucion_categoricas(df, columnas_categoricas, relativa=False, mostrar_valores=False):
     num_columnas = len(columnas_categoricas)
     num_filas = (num_columnas // 2) + (num_columnas % 2)
@@ -38,7 +37,6 @@ def pinta_distribucion_categoricas(df, columnas_categoricas, relativa=False, mos
 
     plt.tight_layout()
     plt.show()
-
 
 def plot_categorical_relationship_fin(df, cat_col1, cat_col2, relative_freq=False, show_values=False, size_group = 5):
     # Prepara los datos
@@ -98,7 +96,6 @@ def plot_categorical_relationship_fin(df, cat_col1, cat_col2, relative_freq=Fals
 
         # Muestra el gráfico
         plt.show()
-
 
 def plot_categorical_numerical_relationship(df, categorical_col, numerical_col, show_values=False, measure='mean'):
     # Calcula la medida de tendencia central (mean o median)
@@ -161,7 +158,6 @@ def plot_categorical_numerical_relationship(df, categorical_col, numerical_col, 
         # Muestra el gráfico
         plt.show()
 
-
 def plot_combined_graphs(df, columns, whisker_width=1.5, bins = None):
     num_cols = len(columns)
     if num_cols:
@@ -203,8 +199,6 @@ def plot_grouped_boxplots(df, cat_col, num_col):
         plt.xticks(rotation=45)
         plt.show()
 
-
-
 def plot_grouped_histograms(df, cat_col, num_col, group_size, bins = "auto"):
     unique_cats = df[cat_col].unique()
     num_cats = len(unique_cats)
@@ -222,8 +216,6 @@ def plot_grouped_histograms(df, cat_col, num_col, group_size, bins = "auto"):
         plt.ylabel('Frequency')
         plt.legend()
         plt.show()
-
-
 
 def grafico_dispersion_con_correlacion(df, columna_x, columna_y, tamano_puntos=50, mostrar_correlacion=False):
     """
@@ -251,7 +243,6 @@ def grafico_dispersion_con_correlacion(df, columna_x, columna_y, tamano_puntos=5
     plt.grid(True)
     plt.show()
 
-
 def bubble_plot(df, col_x, col_y, col_size, scale = 1000):
     """
     Crea un scatter plot usando dos columnas para los ejes X e Y,
@@ -272,5 +263,3 @@ def bubble_plot(df, col_x, col_y, col_size, scale = 1000):
     plt.ylabel(col_y)
     plt.title(f'Burbujas de {col_x} vs {col_y} con Tamaño basado en {col_size}')
     plt.show()
-
-
