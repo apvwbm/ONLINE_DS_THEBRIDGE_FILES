@@ -4,8 +4,10 @@
 **/Ejercicios_RampUp/
 **/Ejercicios_Warmup/
 **/Ejercicios_Workout/
+**/data/
 **/Ejercicios_Extra/
 TeamChallenges/
 Apuntes/
 .env
 *yolo*
+**/*.npz
